@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD24DB2B1F5EDE5500CBDA5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24DB2A1F5EDE5500CBDA5C /* AppDelegate.swift */; };
+		DD24DB2D1F5EDE5500CBDA5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24DB2C1F5EDE5500CBDA5C /* ViewController.swift */; };
+		DD24DB301F5EDE5500CBDA5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD24DB2E1F5EDE5500CBDA5C /* Main.storyboard */; };
+		DD24DB321F5EDE5500CBDA5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD24DB311F5EDE5500CBDA5C /* Assets.xcassets */; };
+		DD24DB351F5EDE5500CBDA5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD24DB331F5EDE5500CBDA5C /* LaunchScreen.storyboard */; };
+		DD24DB3A1F5EDE5500CBDA5C /* EasyTarot WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DD24DB391F5EDE5500CBDA5C /* EasyTarot WatchKit App.app */; };
+		DD24DB401F5EDE5500CBDA5C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD24DB3E1F5EDE5500CBDA5C /* Interface.storyboard */; };
+		DD24DB421F5EDE5500CBDA5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD24DB411F5EDE5500CBDA5C /* Assets.xcassets */; };
+		DD24DB491F5EDE5600CBDA5C /* EasyTarot WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DD24DB481F5EDE5600CBDA5C /* EasyTarot WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD24DB501F5EDE5600CBDA5C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24DB4F1F5EDE5600CBDA5C /* InterfaceController.swift */; };
+		DD24DB521F5EDE5600CBDA5C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24DB511F5EDE5600CBDA5C /* ExtensionDelegate.swift */; };
+		DD24DB541F5EDE5600CBDA5C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24DB531F5EDE5600CBDA5C /* NotificationController.swift */; };
+		DD24DB561F5EDE5600CBDA5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD24DB551F5EDE5600CBDA5C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD24DB3B1F5EDE5500CBDA5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD24DB1F1F5EDE5500CBDA5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD24DB381F5EDE5500CBDA5C;
+			remoteInfo = "EasyTarot WatchKit App";
+		};
+		DD24DB4A1F5EDE5600CBDA5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD24DB1F1F5EDE5500CBDA5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD24DB471F5EDE5600CBDA5C;
+			remoteInfo = "EasyTarot WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD24DB5D1F5EDE5600CBDA5C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DD24DB491F5EDE5600CBDA5C /* EasyTarot WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD24DB611F5EDE5600CBDA5C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DD24DB3A1F5EDE5500CBDA5C /* EasyTarot WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DD24DB271F5EDE5500CBDA5C /* EasyTarot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTarot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD24DB2A1F5EDE5500CBDA5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD24DB2C1F5EDE5500CBDA5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD24DB2F1F5EDE5500CBDA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD24DB311F5EDE5500CBDA5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD24DB341F5EDE5500CBDA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD24DB361F5EDE5500CBDA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD24DB391F5EDE5500CBDA5C /* EasyTarot WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EasyTarot WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD24DB3F1F5EDE5500CBDA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DD24DB411F5EDE5500CBDA5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD24DB431F5EDE5500CBDA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD24DB481F5EDE5600CBDA5C /* EasyTarot WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EasyTarot WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD24DB4E1F5EDE5600CBDA5C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DD24DB4F1F5EDE5600CBDA5C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DD24DB511F5EDE5600CBDA5C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DD24DB531F5EDE5600CBDA5C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		DD24DB551F5EDE5600CBDA5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD24DB571F5EDE5600CBDA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD24DB241F5EDE5500CBDA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD24DB451F5EDE5600CBDA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD24DB1E1F5EDE5500CBDA5C = {
+			isa = PBXGroup;
+			children = (
+				DD24DB291F5EDE5500CBDA5C /* EasyTarot */,
+				DD24DB3D1F5EDE5500CBDA5C /* EasyTarot WatchKit App */,
+				DD24DB4C1F5EDE5600CBDA5C /* EasyTarot WatchKit Extension */,
+				DD24DB281F5EDE5500CBDA5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD24DB281F5EDE5500CBDA5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD24DB271F5EDE5500CBDA5C /* EasyTarot.app */,
+				DD24DB391F5EDE5500CBDA5C /* EasyTarot WatchKit App.app */,
+				DD24DB481F5EDE5600CBDA5C /* EasyTarot WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD24DB291F5EDE5500CBDA5C /* EasyTarot */ = {
+			isa = PBXGroup;
+			children = (
+				DD24DB2A1F5EDE5500CBDA5C /* AppDelegate.swift */,
+				DD24DB2C1F5EDE5500CBDA5C /* ViewController.swift */,
+				DD24DB2E1F5EDE5500CBDA5C /* Main.storyboard */,
+				DD24DB311F5EDE5500CBDA5C /* Assets.xcassets */,
+				DD24DB331F5EDE5500CBDA5C /* LaunchScreen.storyboard */,
+				DD24DB361F5EDE5500CBDA5C /* Info.plist */,
+			);
+			path = EasyTarot;
+			sourceTree = "<group>";
+		};
+		DD24DB3D1F5EDE5500CBDA5C /* EasyTarot WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DD24DB3E1F5EDE5500CBDA5C /* Interface.storyboard */,
+				DD24DB411F5EDE5500CBDA5C /* Assets.xcassets */,
+				DD24DB431F5EDE5500CBDA5C /* Info.plist */,
+			);
+			path = "EasyTarot WatchKit App";
+			sourceTree = "<group>";
+		};
+		DD24DB4C1F5EDE5600CBDA5C /* EasyTarot WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DD24DB4F1F5EDE5600CBDA5C /* InterfaceController.swift */,
+				DD24DB511F5EDE5600CBDA5C /* ExtensionDelegate.swift */,
+				DD24DB531F5EDE5600CBDA5C /* NotificationController.swift */,
+				DD24DB551F5EDE5600CBDA5C /* Assets.xcassets */,
+				DD24DB571F5EDE5600CBDA5C /* Info.plist */,
+				DD24DB4D1F5EDE5600CBDA5C /* Supporting Files */,
+			);
+			path = "EasyTarot WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DD24DB4D1F5EDE5600CBDA5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD24DB4E1F5EDE5600CBDA5C /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD24DB261F5EDE5500CBDA5C /* EasyTarot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD24DB621F5EDE5600CBDA5C /* Build configuration list for PBXNativeTarget "EasyTarot" */;
+			buildPhases = (
+				DD24DB231F5EDE5500CBDA5C /* Sources */,
+				DD24DB241F5EDE5500CBDA5C /* Frameworks */,
+				DD24DB251F5EDE5500CBDA5C /* Resources */,
+				DD24DB611F5EDE5600CBDA5C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD24DB3C1F5EDE5500CBDA5C /* PBXTargetDependency */,
+			);
+			name = EasyTarot;
+			productName = EasyTarot;
+			productReference = DD24DB271F5EDE5500CBDA5C /* EasyTarot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD24DB381F5EDE5500CBDA5C /* EasyTarot WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD24DB5E1F5EDE5600CBDA5C /* Build configuration list for PBXNativeTarget "EasyTarot WatchKit App" */;
+			buildPhases = (
+				DD24DB371F5EDE5500CBDA5C /* Resources */,
+				DD24DB5D1F5EDE5600CBDA5C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD24DB4B1F5EDE5600CBDA5C /* PBXTargetDependency */,
+			);
+			name = "EasyTarot WatchKit App";
+			productName = "EasyTarot WatchKit App";
+			productReference = DD24DB391F5EDE5500CBDA5C /* EasyTarot WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DD24DB471F5EDE5600CBDA5C /* EasyTarot WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD24DB5A1F5EDE5600CBDA5C /* Build configuration list for PBXNativeTarget "EasyTarot WatchKit Extension" */;
+			buildPhases = (
+				DD24DB441F5EDE5600CBDA5C /* Sources */,
+				DD24DB451F5EDE5600CBDA5C /* Frameworks */,
+				DD24DB461F5EDE5600CBDA5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyTarot WatchKit Extension";
+			productName = "EasyTarot WatchKit Extension";
+			productReference = DD24DB481F5EDE5600CBDA5C /* EasyTarot WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD24DB1F1F5EDE5500CBDA5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ProjectJB;
+				TargetAttributes = {
+					DD24DB261F5EDE5500CBDA5C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9AW5SMH942;
+						ProvisioningStyle = Automatic;
+					};
+					DD24DB381F5EDE5500CBDA5C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9AW5SMH942;
+						ProvisioningStyle = Automatic;
+					};
+					DD24DB471F5EDE5600CBDA5C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9AW5SMH942;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DD24DB221F5EDE5500CBDA5C /* Build configuration list for PBXProject "EasyTarot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD24DB1E1F5EDE5500CBDA5C;
+			productRefGroup = DD24DB281F5EDE5500CBDA5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD24DB261F5EDE5500CBDA5C /* EasyTarot */,
+				DD24DB381F5EDE5500CBDA5C /* EasyTarot WatchKit App */,
+				DD24DB471F5EDE5600CBDA5C /* EasyTarot WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD24DB251F5EDE5500CBDA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD24DB351F5EDE5500CBDA5C /* LaunchScreen.storyboard in Resources */,
+				DD24DB321F5EDE5500CBDA5C /* Assets.xcassets in Resources */,
+				DD24DB301F5EDE5500CBDA5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD24DB371F5EDE5500CBDA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD24DB421F5EDE5500CBDA5C /* Assets.xcassets in Resources */,
+				DD24DB401F5EDE5500CBDA5C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD24DB461F5EDE5600CBDA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD24DB561F5EDE5600CBDA5C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD24DB231F5EDE5500CBDA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD24DB2D1F5EDE5500CBDA5C /* ViewController.swift in Sources */,
+				DD24DB2B1F5EDE5500CBDA5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD24DB441F5EDE5600CBDA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD24DB541F5EDE5600CBDA5C /* NotificationController.swift in Sources */,
+				DD24DB521F5EDE5600CBDA5C /* ExtensionDelegate.swift in Sources */,
+				DD24DB501F5EDE5600CBDA5C /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD24DB3C1F5EDE5500CBDA5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD24DB381F5EDE5500CBDA5C /* EasyTarot WatchKit App */;
+			targetProxy = DD24DB3B1F5EDE5500CBDA5C /* PBXContainerItemProxy */;
+		};
+		DD24DB4B1F5EDE5600CBDA5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD24DB471F5EDE5600CBDA5C /* EasyTarot WatchKit Extension */;
+			targetProxy = DD24DB4A1F5EDE5600CBDA5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD24DB2E1F5EDE5500CBDA5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD24DB2F1F5EDE5500CBDA5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD24DB331F5EDE5500CBDA5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD24DB341F5EDE5500CBDA5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DD24DB3E1F5EDE5500CBDA5C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD24DB3F1F5EDE5500CBDA5C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD24DB581F5EDE5600CBDA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD24DB591F5EDE5600CBDA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD24DB5B1F5EDE5600CBDA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 9AW5SMH942;
+				INFOPLIST_FILE = "EasyTarot WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PJ.EasyTarot.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		DD24DB5C1F5EDE5600CBDA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 9AW5SMH942;
+				INFOPLIST_FILE = "EasyTarot WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PJ.EasyTarot.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		DD24DB5F1F5EDE5600CBDA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9AW5SMH942;
+				IBSC_MODULE = EasyTarot_WatchKit_Extension;
+				INFOPLIST_FILE = "EasyTarot WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = PJ.EasyTarot.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		DD24DB601F5EDE5600CBDA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9AW5SMH942;
+				IBSC_MODULE = EasyTarot_WatchKit_Extension;
+				INFOPLIST_FILE = "EasyTarot WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = PJ.EasyTarot.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		DD24DB631F5EDE5600CBDA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9AW5SMH942;
+				INFOPLIST_FILE = EasyTarot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PJ.EasyTarot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DD24DB641F5EDE5600CBDA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9AW5SMH942;
+				INFOPLIST_FILE = EasyTarot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PJ.EasyTarot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD24DB221F5EDE5500CBDA5C /* Build configuration list for PBXProject "EasyTarot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD24DB581F5EDE5600CBDA5C /* Debug */,
+				DD24DB591F5EDE5600CBDA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD24DB5A1F5EDE5600CBDA5C /* Build configuration list for PBXNativeTarget "EasyTarot WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD24DB5B1F5EDE5600CBDA5C /* Debug */,
+				DD24DB5C1F5EDE5600CBDA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD24DB5E1F5EDE5600CBDA5C /* Build configuration list for PBXNativeTarget "EasyTarot WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD24DB5F1F5EDE5600CBDA5C /* Debug */,
+				DD24DB601F5EDE5600CBDA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD24DB621F5EDE5600CBDA5C /* Build configuration list for PBXNativeTarget "EasyTarot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD24DB631F5EDE5600CBDA5C /* Debug */,
+				DD24DB641F5EDE5600CBDA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD24DB1F1F5EDE5500CBDA5C /* Project object */;
+}
