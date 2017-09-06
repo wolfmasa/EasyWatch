@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch38" orientation="portrait">
+    <device id="watch42" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -23,10 +23,15 @@
                                 <segue destination="G5h-lW-pRN" kind="push" id="7cd-Wf-c0I"/>
                             </connections>
                         </button>
+                        <button width="1" alignment="left" title="一覧" id="1vt-ft-mL8">
+                            <connections>
+                                <segue destination="Ixo-56-2V5" kind="push" id="e4W-Rb-p40"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="145" y="137"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -60,7 +65,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="612" y="330.5"/>
+            <point key="canvasLocation" x="543" y="-129"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
@@ -68,6 +73,35 @@
                 <controller id="4sK-HA-Art" customClass="NotificationController" customModule="EasyTarot_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+        <!--Tarot List View-->
+        <scene sceneID="Vy3-wl-aeL">
+            <objects>
+                <controller id="Ixo-56-2V5" customClass="TarotListView" customModule="EasyTarot_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="ILP-Na-JXb">
+                            <items>
+                                <tableRow identifier="TarotRow" id="g3R-KM-240" customClass="TarotRow" customModule="EasyTarot_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="rxW-Ie-Fly">
+                                        <items>
+                                            <imageView width="58" height="40" alignment="left" verticalAlignment="center" isAccessibilityElement="YES" contentMode="scaleAspectFit" id="tWn-TP-Tcn"/>
+                                            <label width="84" height="1" alignment="center" verticalAlignment="center" text="Label" id="mHe-n7-uAM"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="icon" destination="tWn-TP-Tcn" id="ALe-7x-VUU"/>
+                                        <outlet property="name" destination="mHe-n7-uAM" id="oo6-Fi-mYQ"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="listTable" destination="ILP-Na-JXb" id="Nx7-ah-SOr"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="542.25641025641028" y="289.87179487179492"/>
         </scene>
     </scenes>
 </document>

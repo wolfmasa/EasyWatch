@@ -65,6 +65,54 @@
 		DD24DC311F5EF1FB00CBDA5C /* RWS_Tarot_20_Judgement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD24DC061F5EF1FB00CBDA5C /* RWS_Tarot_20_Judgement.jpg */; };
 		DD24DC321F5EF1FB00CBDA5C /* RWS_Tarot_21_World.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD24DC071F5EF1FB00CBDA5C /* RWS_Tarot_21_World.jpg */; };
 		DD24DC331F5EF1FB00CBDA5C /* RWS_Tarot_21_World.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD24DC071F5EF1FB00CBDA5C /* RWS_Tarot_21_World.jpg */; };
+		DD74F1AA1F602CE50070E0F1 /* TarotCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD74F1A91F602CE50070E0F1 /* TarotCars.swift */; };
+		DD74F1AE1F6032240070E0F1 /* TarotRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD74F1AD1F6032240070E0F1 /* TarotRow.swift */; };
+		DD74F1B21F6033BC0070E0F1 /* TarotListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD74F1B11F6033BC0070E0F1 /* TarotListView.swift */; };
+		DD74F1B31F6038100070E0F1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD24DB3E1F5EDE5500CBDA5C /* Interface.storyboard */; };
+		DD74F1CA1F603DD70070E0F1 /* Tarot_01mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1B41F603DD70070E0F1 /* Tarot_01mini.JPG */; };
+		DD74F1CB1F603DD70070E0F1 /* Tarot_01mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1B41F603DD70070E0F1 /* Tarot_01mini.JPG */; };
+		DD74F1CC1F603DD70070E0F1 /* Tarot_02mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1B51F603DD70070E0F1 /* Tarot_02mini.JPG */; };
+		DD74F1CD1F603DD70070E0F1 /* Tarot_02mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1B51F603DD70070E0F1 /* Tarot_02mini.JPG */; };
+		DD74F1CE1F603DD70070E0F1 /* Tarot_03mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1B61F603DD70070E0F1 /* Tarot_03mini.JPG */; };
+		DD74F1CF1F603DD70070E0F1 /* Tarot_03mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1B61F603DD70070E0F1 /* Tarot_03mini.JPG */; };
+		DD74F1D01F603DD70070E0F1 /* Tarot_04mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1B71F603DD70070E0F1 /* Tarot_04mini.JPG */; };
+		DD74F1D11F603DD70070E0F1 /* Tarot_04mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1B71F603DD70070E0F1 /* Tarot_04mini.JPG */; };
+		DD74F1D21F603DD70070E0F1 /* Tarot_05mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1B81F603DD70070E0F1 /* Tarot_05mini.JPG */; };
+		DD74F1D31F603DD70070E0F1 /* Tarot_05mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1B81F603DD70070E0F1 /* Tarot_05mini.JPG */; };
+		DD74F1D41F603DD70070E0F1 /* Tarot_06mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1B91F603DD70070E0F1 /* Tarot_06mini.JPG */; };
+		DD74F1D51F603DD70070E0F1 /* Tarot_06mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1B91F603DD70070E0F1 /* Tarot_06mini.JPG */; };
+		DD74F1D61F603DD70070E0F1 /* Tarot_07mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1BA1F603DD70070E0F1 /* Tarot_07mini.JPG */; };
+		DD74F1D71F603DD70070E0F1 /* Tarot_07mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1BA1F603DD70070E0F1 /* Tarot_07mini.JPG */; };
+		DD74F1D81F603DD70070E0F1 /* Tarot_08mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1BB1F603DD70070E0F1 /* Tarot_08mini.JPG */; };
+		DD74F1D91F603DD70070E0F1 /* Tarot_08mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1BB1F603DD70070E0F1 /* Tarot_08mini.JPG */; };
+		DD74F1DA1F603DD70070E0F1 /* Tarot_09mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1BC1F603DD70070E0F1 /* Tarot_09mini.JPG */; };
+		DD74F1DB1F603DD70070E0F1 /* Tarot_09mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1BC1F603DD70070E0F1 /* Tarot_09mini.JPG */; };
+		DD74F1DC1F603DD70070E0F1 /* Tarot_10mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1BD1F603DD70070E0F1 /* Tarot_10mini.JPG */; };
+		DD74F1DD1F603DD70070E0F1 /* Tarot_10mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1BD1F603DD70070E0F1 /* Tarot_10mini.JPG */; };
+		DD74F1DE1F603DD70070E0F1 /* Tarot_11mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1BE1F603DD70070E0F1 /* Tarot_11mini.JPG */; };
+		DD74F1DF1F603DD70070E0F1 /* Tarot_11mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1BE1F603DD70070E0F1 /* Tarot_11mini.JPG */; };
+		DD74F1E01F603DD70070E0F1 /* Tarot_12mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1BF1F603DD70070E0F1 /* Tarot_12mini.JPG */; };
+		DD74F1E11F603DD70070E0F1 /* Tarot_12mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1BF1F603DD70070E0F1 /* Tarot_12mini.JPG */; };
+		DD74F1E21F603DD70070E0F1 /* Tarot_13mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C01F603DD70070E0F1 /* Tarot_13mini.JPG */; };
+		DD74F1E31F603DD70070E0F1 /* Tarot_13mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C01F603DD70070E0F1 /* Tarot_13mini.JPG */; };
+		DD74F1E41F603DD70070E0F1 /* Tarot_14mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C11F603DD70070E0F1 /* Tarot_14mini.JPG */; };
+		DD74F1E51F603DD70070E0F1 /* Tarot_14mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C11F603DD70070E0F1 /* Tarot_14mini.JPG */; };
+		DD74F1E61F603DD70070E0F1 /* Tarot_15mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C21F603DD70070E0F1 /* Tarot_15mini.JPG */; };
+		DD74F1E71F603DD70070E0F1 /* Tarot_15mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C21F603DD70070E0F1 /* Tarot_15mini.JPG */; };
+		DD74F1E81F603DD70070E0F1 /* Tarot_16mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C31F603DD70070E0F1 /* Tarot_16mini.JPG */; };
+		DD74F1E91F603DD70070E0F1 /* Tarot_16mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C31F603DD70070E0F1 /* Tarot_16mini.JPG */; };
+		DD74F1EA1F603DD70070E0F1 /* Tarot_17mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C41F603DD70070E0F1 /* Tarot_17mini.JPG */; };
+		DD74F1EB1F603DD70070E0F1 /* Tarot_17mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C41F603DD70070E0F1 /* Tarot_17mini.JPG */; };
+		DD74F1EC1F603DD70070E0F1 /* Tarot_18mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C51F603DD70070E0F1 /* Tarot_18mini.JPG */; };
+		DD74F1ED1F603DD70070E0F1 /* Tarot_18mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C51F603DD70070E0F1 /* Tarot_18mini.JPG */; };
+		DD74F1EE1F603DD70070E0F1 /* Tarot_19mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C61F603DD70070E0F1 /* Tarot_19mini.JPG */; };
+		DD74F1EF1F603DD70070E0F1 /* Tarot_19mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C61F603DD70070E0F1 /* Tarot_19mini.JPG */; };
+		DD74F1F01F603DD70070E0F1 /* Tarot_20mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C71F603DD70070E0F1 /* Tarot_20mini.JPG */; };
+		DD74F1F11F603DD70070E0F1 /* Tarot_20mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C71F603DD70070E0F1 /* Tarot_20mini.JPG */; };
+		DD74F1F21F603DD70070E0F1 /* Tarot_21mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C81F603DD70070E0F1 /* Tarot_21mini.JPG */; };
+		DD74F1F31F603DD70070E0F1 /* Tarot_21mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C81F603DD70070E0F1 /* Tarot_21mini.JPG */; };
+		DD74F1F41F603DD70070E0F1 /* Tarot_22mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C91F603DD70070E0F1 /* Tarot_22mini.JPG */; };
+		DD74F1F51F603DD70070E0F1 /* Tarot_22mini.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DD74F1C91F603DD70070E0F1 /* Tarot_22mini.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +199,31 @@
 		DD24DC051F5EF1FB00CBDA5C /* RWS_Tarot_19_Sun.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RWS_Tarot_19_Sun.JPG; path = images/RWS_Tarot_19_Sun.JPG; sourceTree = "<group>"; };
 		DD24DC061F5EF1FB00CBDA5C /* RWS_Tarot_20_Judgement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RWS_Tarot_20_Judgement.jpg; path = images/RWS_Tarot_20_Judgement.jpg; sourceTree = "<group>"; };
 		DD24DC071F5EF1FB00CBDA5C /* RWS_Tarot_21_World.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RWS_Tarot_21_World.jpg; path = images/RWS_Tarot_21_World.jpg; sourceTree = "<group>"; };
+		DD74F1A91F602CE50070E0F1 /* TarotCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TarotCars.swift; sourceTree = "<group>"; };
+		DD74F1AD1F6032240070E0F1 /* TarotRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TarotRow.swift; path = "../EasyTarot WatchKit Extension/TarotRow.swift"; sourceTree = "<group>"; };
+		DD74F1B11F6033BC0070E0F1 /* TarotListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TarotListView.swift; path = "../EasyTarot WatchKit Extension/TarotListView.swift"; sourceTree = "<group>"; };
+		DD74F1B41F603DD70070E0F1 /* Tarot_01mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_01mini.JPG; path = images/Tarot_01mini.JPG; sourceTree = "<group>"; };
+		DD74F1B51F603DD70070E0F1 /* Tarot_02mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_02mini.JPG; path = images/Tarot_02mini.JPG; sourceTree = "<group>"; };
+		DD74F1B61F603DD70070E0F1 /* Tarot_03mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_03mini.JPG; path = images/Tarot_03mini.JPG; sourceTree = "<group>"; };
+		DD74F1B71F603DD70070E0F1 /* Tarot_04mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_04mini.JPG; path = images/Tarot_04mini.JPG; sourceTree = "<group>"; };
+		DD74F1B81F603DD70070E0F1 /* Tarot_05mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_05mini.JPG; path = images/Tarot_05mini.JPG; sourceTree = "<group>"; };
+		DD74F1B91F603DD70070E0F1 /* Tarot_06mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_06mini.JPG; path = images/Tarot_06mini.JPG; sourceTree = "<group>"; };
+		DD74F1BA1F603DD70070E0F1 /* Tarot_07mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_07mini.JPG; path = images/Tarot_07mini.JPG; sourceTree = "<group>"; };
+		DD74F1BB1F603DD70070E0F1 /* Tarot_08mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_08mini.JPG; path = images/Tarot_08mini.JPG; sourceTree = "<group>"; };
+		DD74F1BC1F603DD70070E0F1 /* Tarot_09mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_09mini.JPG; path = images/Tarot_09mini.JPG; sourceTree = "<group>"; };
+		DD74F1BD1F603DD70070E0F1 /* Tarot_10mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_10mini.JPG; path = images/Tarot_10mini.JPG; sourceTree = "<group>"; };
+		DD74F1BE1F603DD70070E0F1 /* Tarot_11mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_11mini.JPG; path = images/Tarot_11mini.JPG; sourceTree = "<group>"; };
+		DD74F1BF1F603DD70070E0F1 /* Tarot_12mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_12mini.JPG; path = images/Tarot_12mini.JPG; sourceTree = "<group>"; };
+		DD74F1C01F603DD70070E0F1 /* Tarot_13mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_13mini.JPG; path = images/Tarot_13mini.JPG; sourceTree = "<group>"; };
+		DD74F1C11F603DD70070E0F1 /* Tarot_14mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_14mini.JPG; path = images/Tarot_14mini.JPG; sourceTree = "<group>"; };
+		DD74F1C21F603DD70070E0F1 /* Tarot_15mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_15mini.JPG; path = images/Tarot_15mini.JPG; sourceTree = "<group>"; };
+		DD74F1C31F603DD70070E0F1 /* Tarot_16mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_16mini.JPG; path = images/Tarot_16mini.JPG; sourceTree = "<group>"; };
+		DD74F1C41F603DD70070E0F1 /* Tarot_17mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_17mini.JPG; path = images/Tarot_17mini.JPG; sourceTree = "<group>"; };
+		DD74F1C51F603DD70070E0F1 /* Tarot_18mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_18mini.JPG; path = images/Tarot_18mini.JPG; sourceTree = "<group>"; };
+		DD74F1C61F603DD70070E0F1 /* Tarot_19mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_19mini.JPG; path = images/Tarot_19mini.JPG; sourceTree = "<group>"; };
+		DD74F1C71F603DD70070E0F1 /* Tarot_20mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_20mini.JPG; path = images/Tarot_20mini.JPG; sourceTree = "<group>"; };
+		DD74F1C81F603DD70070E0F1 /* Tarot_21mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_21mini.JPG; path = images/Tarot_21mini.JPG; sourceTree = "<group>"; };
+		DD74F1C91F603DD70070E0F1 /* Tarot_22mini.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tarot_22mini.JPG; path = images/Tarot_22mini.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +281,8 @@
 		DD24DB3D1F5EDE5500CBDA5C /* EasyTarot WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				DD74F1AD1F6032240070E0F1 /* TarotRow.swift */,
+				DD74F1B11F6033BC0070E0F1 /* TarotListView.swift */,
 				DD24DB3E1F5EDE5500CBDA5C /* Interface.storyboard */,
 				DD24DB411F5EDE5500CBDA5C /* Assets.xcassets */,
 				DD24DB431F5EDE5500CBDA5C /* Info.plist */,
@@ -225,6 +300,7 @@
 				DD24DB571F5EDE5600CBDA5C /* Info.plist */,
 				DD24DB4D1F5EDE5600CBDA5C /* Supporting Files */,
 				DD24DBF01F5EE8B500CBDA5C /* TarotInterfaceController.swift */,
+				DD74F1A91F602CE50070E0F1 /* TarotCars.swift */,
 			);
 			path = "EasyTarot WatchKit Extension";
 			sourceTree = "<group>";
@@ -240,6 +316,28 @@
 		DD24DB651F5EDF9A00CBDA5C /* images */ = {
 			isa = PBXGroup;
 			children = (
+				DD74F1B41F603DD70070E0F1 /* Tarot_01mini.JPG */,
+				DD74F1B51F603DD70070E0F1 /* Tarot_02mini.JPG */,
+				DD74F1B61F603DD70070E0F1 /* Tarot_03mini.JPG */,
+				DD74F1B71F603DD70070E0F1 /* Tarot_04mini.JPG */,
+				DD74F1B81F603DD70070E0F1 /* Tarot_05mini.JPG */,
+				DD74F1B91F603DD70070E0F1 /* Tarot_06mini.JPG */,
+				DD74F1BA1F603DD70070E0F1 /* Tarot_07mini.JPG */,
+				DD74F1BB1F603DD70070E0F1 /* Tarot_08mini.JPG */,
+				DD74F1BC1F603DD70070E0F1 /* Tarot_09mini.JPG */,
+				DD74F1BD1F603DD70070E0F1 /* Tarot_10mini.JPG */,
+				DD74F1BE1F603DD70070E0F1 /* Tarot_11mini.JPG */,
+				DD74F1BF1F603DD70070E0F1 /* Tarot_12mini.JPG */,
+				DD74F1C01F603DD70070E0F1 /* Tarot_13mini.JPG */,
+				DD74F1C11F603DD70070E0F1 /* Tarot_14mini.JPG */,
+				DD74F1C21F603DD70070E0F1 /* Tarot_15mini.JPG */,
+				DD74F1C31F603DD70070E0F1 /* Tarot_16mini.JPG */,
+				DD74F1C41F603DD70070E0F1 /* Tarot_17mini.JPG */,
+				DD74F1C51F603DD70070E0F1 /* Tarot_18mini.JPG */,
+				DD74F1C61F603DD70070E0F1 /* Tarot_19mini.JPG */,
+				DD74F1C71F603DD70070E0F1 /* Tarot_20mini.JPG */,
+				DD74F1C81F603DD70070E0F1 /* Tarot_21mini.JPG */,
+				DD74F1C91F603DD70070E0F1 /* Tarot_22mini.JPG */,
 				DD24DBF21F5EF1FB00CBDA5C /* RWS_Tarot_00_Fool.JPG */,
 				DD24DBF31F5EF1FB00CBDA5C /* RWS_Tarot_01_Magician.jpg */,
 				DD24DBF41F5EF1FB00CBDA5C /* RWS_Tarot_02_High_Priestess.JPG */,
@@ -386,28 +484,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD24DB421F5EDE5500CBDA5C /* Assets.xcassets in Resources */,
+				DD74F1DE1F603DD70070E0F1 /* Tarot_11mini.JPG in Resources */,
 				DD24DC0A1F5EF1FB00CBDA5C /* RWS_Tarot_01_Magician.jpg in Resources */,
+				DD74F1F41F603DD70070E0F1 /* Tarot_22mini.JPG in Resources */,
+				DD74F1CA1F603DD70070E0F1 /* Tarot_01mini.JPG in Resources */,
+				DD74F1E41F603DD70070E0F1 /* Tarot_14mini.JPG in Resources */,
+				DD74F1CC1F603DD70070E0F1 /* Tarot_02mini.JPG in Resources */,
+				DD74F1EC1F603DD70070E0F1 /* Tarot_18mini.JPG in Resources */,
 				DD24DC261F5EF1FB00CBDA5C /* RWS_Tarot_15_Devil.jpg in Resources */,
 				DD24DC281F5EF1FB00CBDA5C /* RWS_Tarot_16_Tower.jpg in Resources */,
 				DD24DC2E1F5EF1FB00CBDA5C /* RWS_Tarot_19_Sun.JPG in Resources */,
+				DD74F1E61F603DD70070E0F1 /* Tarot_15mini.JPG in Resources */,
 				DD24DC221F5EF1FB00CBDA5C /* RWS_Tarot_13_Death.jpg in Resources */,
 				DD24DC081F5EF1FB00CBDA5C /* RWS_Tarot_00_Fool.JPG in Resources */,
 				DD24DC1A1F5EF1FB00CBDA5C /* RWS_Tarot_09_Hermit.jpg in Resources */,
 				DD24DC201F5EF1FB00CBDA5C /* RWS_Tarot_12_Hanged_Man.jpg in Resources */,
+				DD74F1D41F603DD70070E0F1 /* Tarot_06mini.JPG in Resources */,
 				DD24DC0C1F5EF1FB00CBDA5C /* RWS_Tarot_02_High_Priestess.JPG in Resources */,
 				DD24DC2A1F5EF1FB00CBDA5C /* RWS_Tarot_17_Star.jpg in Resources */,
 				DD24DC1E1F5EF1FB00CBDA5C /* RWS_Tarot_11_Justice.jpg in Resources */,
 				DD24DC181F5EF1FB00CBDA5C /* RWS_Tarot_08_Strength.jpg in Resources */,
+				DD74F1EE1F603DD70070E0F1 /* Tarot_19mini.JPG in Resources */,
 				DD24DC141F5EF1FB00CBDA5C /* RWS_Tarot_06_Lovers.jpg in Resources */,
+				DD74F1E81F603DD70070E0F1 /* Tarot_16mini.JPG in Resources */,
 				DD24DC241F5EF1FB00CBDA5C /* RWS_Tarot_14_Temperance.jpg in Resources */,
 				DD24DC121F5EF1FB00CBDA5C /* RWS_Tarot_05_Hierophant.jpg in Resources */,
 				DD24DC101F5EF1FB00CBDA5C /* RWS_Tarot_04_Emperor.jpg in Resources */,
 				DD24DC161F5EF1FB00CBDA5C /* RWS_Tarot_07_Chariot.jpg in Resources */,
+				DD74F1F01F603DD70070E0F1 /* Tarot_20mini.JPG in Resources */,
+				DD74F1E21F603DD70070E0F1 /* Tarot_13mini.JPG in Resources */,
+				DD74F1D21F603DD70070E0F1 /* Tarot_05mini.JPG in Resources */,
+				DD74F1CE1F603DD70070E0F1 /* Tarot_03mini.JPG in Resources */,
+				DD74F1D61F603DD70070E0F1 /* Tarot_07mini.JPG in Resources */,
 				DD24DC1C1F5EF1FB00CBDA5C /* RWS_Tarot_10_Wheel_of_Fortune.jpg in Resources */,
+				DD74F1DA1F603DD70070E0F1 /* Tarot_09mini.JPG in Resources */,
 				DD24DC321F5EF1FB00CBDA5C /* RWS_Tarot_21_World.jpg in Resources */,
+				DD74F1E01F603DD70070E0F1 /* Tarot_12mini.JPG in Resources */,
+				DD74F1F21F603DD70070E0F1 /* Tarot_21mini.JPG in Resources */,
 				DD24DC0E1F5EF1FB00CBDA5C /* RWS_Tarot_03_Empress.jpg in Resources */,
 				DD24DC301F5EF1FB00CBDA5C /* RWS_Tarot_20_Judgement.jpg in Resources */,
+				DD74F1D01F603DD70070E0F1 /* Tarot_04mini.JPG in Resources */,
+				DD74F1DC1F603DD70070E0F1 /* Tarot_10mini.JPG in Resources */,
+				DD74F1D81F603DD70070E0F1 /* Tarot_08mini.JPG in Resources */,
 				DD24DC2C1F5EF1FB00CBDA5C /* RWS_Tarot_18_Moon.jpg in Resources */,
+				DD74F1EA1F603DD70070E0F1 /* Tarot_17mini.JPG in Resources */,
 				DD24DB401F5EDE5500CBDA5C /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,27 +537,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD24DC291F5EF1FB00CBDA5C /* RWS_Tarot_16_Tower.jpg in Resources */,
+				DD74F1DF1F603DD70070E0F1 /* Tarot_11mini.JPG in Resources */,
 				DD24DC331F5EF1FB00CBDA5C /* RWS_Tarot_21_World.jpg in Resources */,
+				DD74F1F51F603DD70070E0F1 /* Tarot_22mini.JPG in Resources */,
+				DD74F1CB1F603DD70070E0F1 /* Tarot_01mini.JPG in Resources */,
+				DD74F1E51F603DD70070E0F1 /* Tarot_14mini.JPG in Resources */,
+				DD74F1CD1F603DD70070E0F1 /* Tarot_02mini.JPG in Resources */,
+				DD74F1ED1F603DD70070E0F1 /* Tarot_18mini.JPG in Resources */,
 				DD24DC271F5EF1FB00CBDA5C /* RWS_Tarot_15_Devil.jpg in Resources */,
 				DD24DC191F5EF1FB00CBDA5C /* RWS_Tarot_08_Strength.jpg in Resources */,
+				DD74F1B31F6038100070E0F1 /* Interface.storyboard in Resources */,
+				DD74F1E71F603DD70070E0F1 /* Tarot_15mini.JPG in Resources */,
 				DD24DC171F5EF1FB00CBDA5C /* RWS_Tarot_07_Chariot.jpg in Resources */,
 				DD24DC0D1F5EF1FB00CBDA5C /* RWS_Tarot_02_High_Priestess.JPG in Resources */,
 				DD24DC0F1F5EF1FB00CBDA5C /* RWS_Tarot_03_Empress.jpg in Resources */,
 				DD24DC1B1F5EF1FB00CBDA5C /* RWS_Tarot_09_Hermit.jpg in Resources */,
+				DD74F1D51F603DD70070E0F1 /* Tarot_06mini.JPG in Resources */,
 				DD24DC1D1F5EF1FB00CBDA5C /* RWS_Tarot_10_Wheel_of_Fortune.jpg in Resources */,
 				DD24DC251F5EF1FB00CBDA5C /* RWS_Tarot_14_Temperance.jpg in Resources */,
 				DD24DC311F5EF1FB00CBDA5C /* RWS_Tarot_20_Judgement.jpg in Resources */,
 				DD24DC1F1F5EF1FB00CBDA5C /* RWS_Tarot_11_Justice.jpg in Resources */,
+				DD74F1EF1F603DD70070E0F1 /* Tarot_19mini.JPG in Resources */,
 				DD24DC151F5EF1FB00CBDA5C /* RWS_Tarot_06_Lovers.jpg in Resources */,
+				DD74F1E91F603DD70070E0F1 /* Tarot_16mini.JPG in Resources */,
 				DD24DC111F5EF1FB00CBDA5C /* RWS_Tarot_04_Emperor.jpg in Resources */,
 				DD24DC2F1F5EF1FB00CBDA5C /* RWS_Tarot_19_Sun.JPG in Resources */,
 				DD24DC0B1F5EF1FB00CBDA5C /* RWS_Tarot_01_Magician.jpg in Resources */,
 				DD24DC211F5EF1FB00CBDA5C /* RWS_Tarot_12_Hanged_Man.jpg in Resources */,
+				DD74F1F11F603DD70070E0F1 /* Tarot_20mini.JPG in Resources */,
+				DD74F1E31F603DD70070E0F1 /* Tarot_13mini.JPG in Resources */,
+				DD74F1D31F603DD70070E0F1 /* Tarot_05mini.JPG in Resources */,
+				DD74F1CF1F603DD70070E0F1 /* Tarot_03mini.JPG in Resources */,
+				DD74F1D71F603DD70070E0F1 /* Tarot_07mini.JPG in Resources */,
 				DD24DB561F5EDE5600CBDA5C /* Assets.xcassets in Resources */,
+				DD74F1DB1F603DD70070E0F1 /* Tarot_09mini.JPG in Resources */,
 				DD24DC131F5EF1FB00CBDA5C /* RWS_Tarot_05_Hierophant.jpg in Resources */,
+				DD74F1E11F603DD70070E0F1 /* Tarot_12mini.JPG in Resources */,
+				DD74F1F31F603DD70070E0F1 /* Tarot_21mini.JPG in Resources */,
 				DD24DC091F5EF1FB00CBDA5C /* RWS_Tarot_00_Fool.JPG in Resources */,
 				DD24DC2D1F5EF1FB00CBDA5C /* RWS_Tarot_18_Moon.jpg in Resources */,
+				DD74F1D11F603DD70070E0F1 /* Tarot_04mini.JPG in Resources */,
+				DD74F1DD1F603DD70070E0F1 /* Tarot_10mini.JPG in Resources */,
+				DD74F1D91F603DD70070E0F1 /* Tarot_08mini.JPG in Resources */,
 				DD24DC231F5EF1FB00CBDA5C /* RWS_Tarot_13_Death.jpg in Resources */,
+				DD74F1EB1F603DD70070E0F1 /* Tarot_17mini.JPG in Resources */,
 				DD24DC2B1F5EF1FB00CBDA5C /* RWS_Tarot_17_Star.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,9 +602,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD24DBF11F5EE8B500CBDA5C /* TarotInterfaceController.swift in Sources */,
+				DD74F1B21F6033BC0070E0F1 /* TarotListView.swift in Sources */,
+				DD74F1AA1F602CE50070E0F1 /* TarotCars.swift in Sources */,
 				DD24DB541F5EDE5600CBDA5C /* NotificationController.swift in Sources */,
 				DD24DB521F5EDE5600CBDA5C /* ExtensionDelegate.swift in Sources */,
 				DD24DB501F5EDE5600CBDA5C /* InterfaceController.swift in Sources */,
+				DD74F1AE1F6032240070E0F1 /* TarotRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,6 +867,7 @@
 				DD24DB5C1F5EDE5600CBDA5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD24DB5E1F5EDE5600CBDA5C /* Build configuration list for PBXNativeTarget "EasyTarot WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -729,6 +876,7 @@
 				DD24DB601F5EDE5600CBDA5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD24DB621F5EDE5600CBDA5C /* Build configuration list for PBXNativeTarget "EasyTarot" */ = {
 			isa = XCConfigurationList;
@@ -737,6 +885,7 @@
 				DD24DB641F5EDE5600CBDA5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
