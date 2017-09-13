@@ -14,9 +14,10 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="EasyTarot_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label width="136" height="54" alignment="left" text="Easy Tarot" textAlignment="center" id="i60-Ev-t8k">
+                        <label alignment="center" text="Easy Tarot" textAlignment="center" id="i60-Ev-t8k">
                             <fontDescription key="font" type="system" pointSize="23"/>
                         </label>
+                        <imageView alignment="center" image="img00001" contentMode="center" animationDuration="3" id="AhG-bJ-Zc5"/>
                         <button width="1" alignment="left" title="占う" id="tVI-QT-xoI">
                             <connections>
                                 <action selector="divineTarot" destination="AgC-eL-Hgc" id="sbb-QK-cWo"/>
@@ -31,7 +32,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="145" y="137"/>
+            <point key="canvasLocation" x="144.71794871794873" y="136.43589743589746"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
