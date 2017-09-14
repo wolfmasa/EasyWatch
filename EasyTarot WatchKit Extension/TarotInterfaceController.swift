@@ -13,25 +13,29 @@ import Foundation
 class TarotInterfaceController: WKInterfaceController {
 
     
-    @IBOutlet var imageView: WKInterfaceImage!
     @IBOutlet var tarotText: WKInterfaceLabel!
-    @IBOutlet var tarotDescription: WKInterfaceLabel!
-   
+    @IBOutlet var tarotImageButton: WKInterfaceButton!
+    
+    var card: TarotCards.Tarot!
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
         // Configure interface objects here.
+        card = TarotCards().getRandom()
+        
+        tarotImageButton.setBackgroundImageNamed(card.filename)
+        tarotText.setText(card.title)
+    }
+    
+    override func contextForSegue(withIdentifier segueIdentifier: String) -> Any? {
+        return card
     }
 
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
-        
-        let card = TarotCards().getRandom()
-        
-        imageView.setImageNamed(card.filename)
-        tarotText.setText(card.title)
-        tarotDescription.setText(card.description)
+
     }
 
     override func didDeactivate() {

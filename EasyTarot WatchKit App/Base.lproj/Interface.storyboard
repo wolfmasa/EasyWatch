@@ -15,9 +15,9 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="EasyTarot_WatchKit_App" customModuleProvider="target">
                     <items>
                         <label alignment="center" text="Easy Tarot" textAlignment="center" id="i60-Ev-t8k">
-                            <fontDescription key="font" type="system" pointSize="23"/>
+                            <fontDescription key="font" type="italicSystem" weight="thin" pointSize="21"/>
                         </label>
-                        <imageView alignment="center" image="img00001" contentMode="center" animationDuration="3" id="AhG-bJ-Zc5"/>
+                        <imageView alignment="center" image="img00001" contentMode="center" id="AhG-bJ-Zc5"/>
                         <button width="1" alignment="left" title="占う" id="tVI-QT-xoI">
                             <connections>
                                 <action selector="divineTarot" destination="AgC-eL-Hgc" id="sbb-QK-cWo"/>
@@ -55,18 +55,36 @@
             <objects>
                 <controller id="G5h-lW-pRN" customClass="TarotInterfaceController" customModule="EasyTarot_WatchKit_Extension">
                     <items>
-                        <label width="136" height="30" alignment="left" text="カード名" textAlignment="center" numberOfLines="0" id="htL-e1-Hhh"/>
-                        <imageView height="150" alignment="left" contentMode="scaleAspectFit" id="Wds-qs-5tA"/>
-                        <label width="136" alignment="left" text="Label" numberOfLines="10" id="kcx-l9-7J1"/>
+                        <button alignment="center" backgroundImage="Tarot_01mini" id="Ctg-to-UeL">
+                            <connections>
+                                <segue destination="iKD-L5-rSA" kind="push" id="Tqe-90-GMi"/>
+                            </connections>
+                        </button>
+                        <label alignment="center" text="カード名" textAlignment="center" numberOfLines="0" id="htL-e1-Hhh"/>
                     </items>
                     <connections>
-                        <outlet property="imageView" destination="Wds-qs-5tA" id="fhN-SV-YWy"/>
-                        <outlet property="tarotDescription" destination="kcx-l9-7J1" id="280-8g-pql"/>
+                        <outlet property="tarotImageButton" destination="Ctg-to-UeL" id="v4y-a4-meB"/>
                         <outlet property="tarotText" destination="htL-e1-Hhh" id="x4Z-Xo-rWY"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="543" y="-129"/>
+            <point key="canvasLocation" x="542.25641025641028" y="-123.35897435897436"/>
+        </scene>
+        <!--Tarot Detail Interface Controller-->
+        <scene sceneID="62d-Wx-03P">
+            <objects>
+                <controller id="iKD-L5-rSA" customClass="TarotDetailInterfaceController" customModule="EasyTarot_WatchKit_Extension">
+                    <items>
+                        <label width="156" height="31" alignment="left" text="Label" textAlignment="center" id="IFO-oh-3m6"/>
+                        <label width="156" height="127" alignment="center" text="Label" textAlignment="left" numberOfLines="10" id="RI9-Tf-rTn"/>
+                    </items>
+                    <connections>
+                        <outlet property="tarotDescription" destination="RI9-Tf-rTn" id="H61-1U-Ecl"/>
+                        <outlet property="tarotTitle" destination="IFO-oh-3m6" id="1BQ-RB-LMw"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="843.89743589743591" y="-201.82051282051285"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">

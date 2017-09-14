@@ -1,8 +1,8 @@
 //
-//  TarotListView.swift
+//  TarotDetailInterfaceController.swift
 //  EasyTarot
 //
-//  Created by JobaraMasashi on 2017/09/06.
+//  Created by JobaraMasashi on 2017/09/14.
 //  Copyright © 2017年 ProjectJB. All rights reserved.
 //
 
@@ -10,26 +10,19 @@ import WatchKit
 import Foundation
 
 
-class TarotListView: WKInterfaceController {
+class TarotDetailInterfaceController: WKInterfaceController {
 
-    @IBOutlet var listTable: WKInterfaceTable!
-    var cards: TarotCards!
+    @IBOutlet var tarotTitle: WKInterfaceLabel!
+    @IBOutlet var tarotDescription: WKInterfaceLabel!
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        cards = TarotCards()
+        // Configure interface objects here.
+        let card = context as! TarotCards.Tarot
         
-        listTable.setNumberOfRows(cards.getNumber(), withRowType: "TarotRow")
-        
-        var count = 0
-        for card in cards.getAll() {
-            let row = listTable.rowController(at: count) as? TarotRow
-            
-            row?.setRow(imagePath: card.filename, label: card.title)
-            count += 1
-        }
-        
+        tarotDescription.setText(card.description)
+        tarotTitle.setText(card.title)
     }
 
     override func willActivate() {
